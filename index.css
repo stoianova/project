@@ -9,10 +9,15 @@ body{
 
 header{
     width: 100%;
-    max-height: 100px;
+    min-height: 100px;
     background-color: rgb(102, 142, 104);
 }
 
+@media (max-width: 1400px){
+    header{
+        min-height: 200px;
+    }
+}
   .navbar-collapse {
     flex-grow: 0;
   }
